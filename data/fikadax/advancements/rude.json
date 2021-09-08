@@ -1,28 +1,30 @@
 {
     "display": {
         "title": {
-            "text": "Netherrack For Your Troubles"
+            "text": "OMG, Rude Much?"
         },
         "description": {
-            "text": "..."
+            "text": "Kill 3 Hoes"
         },
         "icon": {
-            "item": "minecraft:netherrack"
+            "item": "minecraft:splash_potion"
         },
-        "frame": "challenge",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "hitNetherrack": {
+        "splashPlayer": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:player",
-                    "equipment": {
-                        "mainhand": {
-                            "item": "minecraft:netherrack"
+                    "type": "minecraft:player"
+                },
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:potion"
                         }
                     }
                 }

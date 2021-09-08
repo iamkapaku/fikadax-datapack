@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "The FIKA Is Not A Lie"
+            "text": "Wow, Toxic!"
         },
         "description": {
-            "text": "Eat Cake"
+            "text": "Did You Mean To Do That?"
         },
         "icon": {
-            "item": "minecraft:cake"
+            "item": "minecraft:poisonous_potato"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,10 +15,12 @@
         "hidden": false
     },
     "criteria": {
-        "placeCake": {
-            "trigger": "minecraft:placed_block",
+        "eatPP": {
+            "trigger": "minecraft:consume_item",
             "conditions": {
-                "block": "minecraft:cake"
+                "item": {
+                    "item": "minecraft:poisonous_potato"
+                }
             }
         }
     },

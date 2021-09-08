@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Smelly.."
+            "text": "Stinky!"
         },
         "description": {
             "text": "Kill A Hoe"
         },
         "icon": {
-            "item": "minecraft:iron_sword"
+            "item": "minecraft:diamond_sword"
         },
         "frame": "task",
         "show_toast": true,
@@ -24,5 +24,5 @@
             }
         }
     },
-    "parent": "fikadax:root"
+    "parent": "fikadax:smelly"
 }

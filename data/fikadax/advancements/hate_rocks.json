@@ -1,0 +1,60 @@
+{
+    "display": {
+        "title": {
+            "text": "I Hate Rocks"
+        },
+        "description": {
+            "text": "Mine Stone"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "getCobble": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        },
+        "getAndesite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:andesite"
+                    }
+                ]
+            }
+        },
+        "getDiorite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diorite"
+                    }
+                ]
+            }
+        },
+        "getGranite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:granite"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "fikadax:root"
+}

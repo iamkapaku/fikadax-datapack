@@ -1,7 +1,7 @@
 {
     "display": {
         "title": {
-            "text": "FIKADAX"
+            "text": "Fikadax"
         },
         "description": {
             "text": ""
@@ -13,7 +13,7 @@
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false,
-        "background": "minecraft:textures/block/diamond_block.png"
+        "background": "minecraft:textures/textures/block/diamond_block.png"
     },
     "criteria": {
         "Start": {
