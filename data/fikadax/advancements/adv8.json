@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Netherrack For Your Troubles"
+        },
+        "description": {
+            "text": "..."
+        },
+        "icon": {
+            "item": "minecraft:netherrack"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hitNetherrack": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "item": "minecraft:netherrack"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "fikadax:root"
+}

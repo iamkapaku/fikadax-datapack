@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "FIKA? ;O"
+        },
+        "description": {
+            "text": "Give A Hoe A Cookie"
+        },
+        "icon": {
+            "item": "minecraft:cookie"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "eatCookie": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:cookie",
+                    "count": {
+                        "min": 1,
+                        "max": 1
+                    }
+                }
+            }
+        }
+    },
+    "parent": "fikadax:adv1"
+}

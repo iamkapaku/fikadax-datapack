@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "In Front Of My Salad!?"
+        },
+        "description": {
+            "text": "Breed Two Sheep"
+        },
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "breedSheep": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "parent": {
+                    "type": "minecraft:sheep"
+                },
+                "partner": {
+                    "type": "minecraft:sheep"
+                }
+            }
+        }
+    },
+    "parent": "fikadax:root"
+}

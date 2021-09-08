@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Smelly.."
+        },
+        "description": {
+            "text": "Kill A Hoe"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "killPlayer": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                }
+            }
+        }
+    },
+    "parent": "fikadax:root"
+}

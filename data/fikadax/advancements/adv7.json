@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Wow, Toxic!"
+        },
+        "description": {
+            "text": "Kill 5 Hoes"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill5": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                }
+            }
+        }
+    },
+    "parent": "fikadax:adv6"
+}
