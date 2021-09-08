@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#",
+    "X",
+    "O"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "X": {
+      "item": "minecraft:tnt",
+      "data": 0
+    },
+    "O": {
+      "item": "minecraft:clay",
+      "data": 6
+    }
+  },
+  "result": {
+    "item": "minecraft:knowledge_book"
+  }
+}

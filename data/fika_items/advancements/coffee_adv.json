@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "fika_items:coffee"
+            }
+        }
+    },
+    "rewards": {
+        "function": "fika_items:coffee"
+    }
+}
