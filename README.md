@@ -1,2 +1,2 @@
-# fikadax-datapack
+# Fikadax Datapack
 Minecraft Datapack for Fikadax servers
