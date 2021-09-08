@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Fikadax Nether"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/nether_brick.png"
+    },
+    "criteria": {
+        "Start": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

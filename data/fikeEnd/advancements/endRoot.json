@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Fikadax End"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/purpur_block.png"
+    },
+    "criteria": {
+        "Start": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
