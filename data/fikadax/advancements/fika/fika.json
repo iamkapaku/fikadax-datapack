@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Wow, Toxic!"
+            "text": "FIKA? OwO"
         },
         "description": {
-            "text": "Did You Mean To Do That?"
+            "text": "Give A Hoe A Cookie"
         },
         "icon": {
-            "item": "minecraft:poisonous_potato"
+            "item": "minecraft:cookie"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,14 +15,18 @@
         "hidden": false
     },
     "criteria": {
-        "eatPP": {
+        "eatCookie": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:poisonous_potato"
+                    "item": "minecraft:cookie",
+                    "count": {
+                        "min": 1,
+                        "max": 1
+                    }
                 }
             }
         }
     },
-    "parent": "fikadax:root"
+    "parent": "fikadax:fika/lie"
 }

@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "FIKA? OwO"
+            "text": "netherTest"
         },
         "description": {
-            "text": "Give A Hoe A Cookie"
+            "text": "test"
         },
         "icon": {
-            "item": "minecraft:cookie"
+            "item": "minecraft:bread"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,7 +19,7 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:cookie",
+                    "item": "minecraft:bread",
                     "count": {
                         "min": 1,
                         "max": 1
@@ -28,5 +28,5 @@
             }
         }
     },
-    "parent": "fikadax:fika_lie"
+    "parent": "fikadax:fikaNether/root"
 }

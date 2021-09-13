@@ -56,5 +56,5 @@
             }
         }
     },
-    "parent": "fikadax:root"
+    "parent": "fikadax:fika/root"
 }

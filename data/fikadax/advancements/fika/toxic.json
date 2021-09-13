@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Stinky!"
+            "text": "Wow, Toxic!"
         },
         "description": {
-            "text": "Kill A Hoe"
+            "text": "Did You Mean To Do That?"
         },
         "icon": {
-            "item": "minecraft:diamond_sword"
+            "item": "minecraft:poisonous_potato"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,14 +15,14 @@
         "hidden": false
     },
     "criteria": {
-        "killPlayer": {
-            "trigger": "minecraft:player_killed_entity",
+        "eatPP": {
+            "trigger": "minecraft:consume_item",
             "conditions": {
-                "entity": {
-                    "type": "minecraft:player"
+                "item": {
+                    "item": "minecraft:poisonous_potato"
                 }
             }
         }
     },
-    "parent": "fikadax:smelly"
+    "parent": "fikadax:fika/root"
 }

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Smelly.."
+        },
+        "description": {
+            "text": "Hurt A Hoe"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hurtPlayer": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                }
+            }
+        }
+    },
+    "parent": "fikadax:fika/root"
+}

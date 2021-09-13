@@ -1,13 +1,13 @@
 {
     "display": {
         "title": {
-            "text": "Smelly.."
+            "text": "The FIKA Is Not A Lie"
         },
         "description": {
-            "text": "Hurt A Hoe"
+            "text": "Eat Cake"
         },
         "icon": {
-            "item": "minecraft:iron_sword"
+            "item": "minecraft:cake"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,14 +15,12 @@
         "hidden": false
     },
     "criteria": {
-        "hurtPlayer": {
-            "trigger": "minecraft:player_hurt_entity",
+        "placeCake": {
+            "trigger": "minecraft:placed_block",
             "conditions": {
-                "entity": {
-                    "type": "minecraft:player"
-                }
+                "block": "minecraft:cake"
             }
         }
     },
-    "parent": "fikadax:root"
+    "parent": "fikadax:fika/root"
 }
